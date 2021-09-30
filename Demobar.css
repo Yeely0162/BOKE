@@ -1,0 +1,91 @@
+.bg-box{
+    width: 100%;
+    height: 100em;
+    background-color: rgb(107, 55, 177);
+
+}
+.bg{
+    background-image: linear-gradient(to bottom right,
+    rgb(0,81,255),
+    rgb(116, 95, 149),
+    rgb(189, 101, 101));
+    width: 100%;
+    height: 100em;
+    overflow: hidden;
+
+}
+.menu-title{
+    background-color: #222;
+    width: 240px;
+    height: 60%;
+    left: 200px;
+    float: left;
+    position: relative;
+    display: block;
+}
+.menu-title-txt{
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    padding: 25px;
+    display: block;
+}
+.table{
+    padding: 50px;
+    height: 300em;
+    width: 50em;
+    margin-left: 460px;
+    border: solid 1px chocolate;
+    background-color: white;
+}
+.left-bar-box{
+    background-color: white;
+    width: 240px;
+    height: 330px;
+    clear: both;
+    float: left;
+    left: 200px;
+    border-radius: 3px;
+    top: 15px;
+    position: relative;
+    display: block;
+}
+.picture-box{
+    border: solid 1px #c4b3b3;
+    border-radius: 500px;
+    width: 50px;
+    height: 50px;
+    padding: 35px;
+    margin-top: 35px;
+    margin-left: 58px;
+    overflow: hidden;
+    position: relative;
+}
+.img{
+    width: 100%;
+    height:auto;
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+.left-bar-name{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+.PersonIntroduction{
+    font-family: "微软雅黑";
+    color: #999999;
+    text-align: center;
+}
+.left-bar-icon{
+    padding: 40px;
+}
+@media screen and (max-width: 600px) {
+
+}
